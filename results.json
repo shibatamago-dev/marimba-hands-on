@@ -1,0 +1,269 @@
+{
+  "03_term.wav": [
+    {
+      "question": {
+        "text": "Has the speaker finished?",
+        "kind": "score",
+        "options": null,
+        "task": "turn_end",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "turn_end",
+      "kind": "score",
+      "value": 0.8989032397199309,
+      "probability": 0.8989032397199309,
+      "probabilities": null,
+      "score": 0.8968614092932278,
+      "threshold": 0.5,
+      "window_start_s": 0.0,
+      "window_end_s": 8.0,
+      "latency_ms": 56993.496232000325,
+      "status": "validated",
+      "calibrated": false
+    },
+    {
+      "question": {
+        "text": "Is someone speaking?",
+        "kind": "noul",
+        "options": null,
+        "task": "voice_activity",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "voice_activity",
+      "kind": "noul",
+      "value": true,
+      "probability": 0.9786979084268697,
+      "probabilities": null,
+      "score": 2.5033626556396484,
+      "threshold": 0.225,
+      "window_start_s": 0.0,
+      "window_end_s": 8.0,
+      "latency_ms": 56993.496232000325,
+      "status": "validated",
+      "calibrated": false
+    },
+    {
+      "question": {
+        "text": "What language?",
+        "kind": "choice",
+        "options": [
+          "en",
+          "ja",
+          "pt",
+          "es",
+          "zh",
+          "Other"
+        ],
+        "task": "language",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "language",
+      "kind": "choice",
+      "value": "en",
+      "probability": 0.9998354009369916,
+      "probabilities": {
+        "en": 0.9998354009369916,
+        "ja": 1.9542181925205656e-07,
+        "pt": 2.197356448440961e-05,
+        "es": 5.942307659520669e-05,
+        "zh": 9.733782062853804e-06,
+        "Other": 7.3273218046239e-05
+      },
+      "score": null,
+      "threshold": 0.5,
+      "window_start_s": 0.0,
+      "window_end_s": 8.0,
+      "latency_ms": 56993.496232000325,
+      "status": "validated",
+      "calibrated": false
+    },
+    {
+      "question": {
+        "text": "Did someone say \"marimba\"?",
+        "kind": "noul",
+        "options": null,
+        "task": "term",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "term",
+      "kind": "noul",
+      "value": true,
+      "probability": 0.6,
+      "probabilities": null,
+      "score": 0.6,
+      "threshold": 0.5,
+      "window_start_s": 0.0,
+      "window_end_s": 8.0,
+      "latency_ms": 56993.496232000325,
+      "status": "validated",
+      "calibrated": false
+    },
+    {
+      "question": {
+        "text": "How many speakers?",
+        "kind": "choice",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3+"
+        ],
+        "task": "speaker_count",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "speaker_count",
+      "kind": "choice",
+      "value": "1",
+      "probability": 0.997392810703517,
+      "probabilities": {
+        "0": 8.763094458928449e-05,
+        "1": 0.997392810703517,
+        "2": 0.002504409842948283,
+        "3+": 1.5148508945366252e-05
+      },
+      "score": null,
+      "threshold": 0.5,
+      "window_start_s": 0.0,
+      "window_end_s": 8.0,
+      "latency_ms": 56993.496232000325,
+      "status": "validated",
+      "calibrated": false
+    }
+  ],
+  "silence_3s.wav": [
+    {
+      "question": {
+        "text": "Has the speaker finished?",
+        "kind": "score",
+        "options": null,
+        "task": "turn_end",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "turn_end",
+      "kind": "score",
+      "value": 0.9802375955507815,
+      "probability": 0.9802375955507815,
+      "probabilities": null,
+      "score": 0.9783308646318425,
+      "threshold": 0.5,
+      "window_start_s": 0.0,
+      "window_end_s": 3.0,
+      "latency_ms": 41208.59672699953,
+      "status": "validated",
+      "calibrated": false
+    },
+    {
+      "question": {
+        "text": "Is someone speaking?",
+        "kind": "noul",
+        "options": null,
+        "task": "voice_activity",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "voice_activity",
+      "kind": "noul",
+      "value": false,
+      "probability": 2.160937806021395e-05,
+      "probabilities": null,
+      "score": -7.026154041290283,
+      "threshold": 0.225,
+      "window_start_s": 0.0,
+      "window_end_s": 3.0,
+      "latency_ms": 41208.59672699953,
+      "status": "validated",
+      "calibrated": false
+    },
+    {
+      "question": {
+        "text": "What language?",
+        "kind": "choice",
+        "options": [
+          "en",
+          "ja",
+          "pt",
+          "es",
+          "zh",
+          "Other"
+        ],
+        "task": "language",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "language",
+      "kind": "choice",
+      "value": "es",
+      "probability": 0.8715821488052213,
+      "probabilities": {
+        "en": 0.028166505729871748,
+        "ja": 0.0008410256026007407,
+        "pt": 0.05679067638764444,
+        "es": 0.8715821488052213,
+        "zh": 0.029901307504981618,
+        "Other": 0.012718335969680281
+      },
+      "score": null,
+      "threshold": 0.5,
+      "window_start_s": 0.0,
+      "window_end_s": 3.0,
+      "latency_ms": 41208.59672699953,
+      "status": "validated",
+      "calibrated": false
+    },
+    {
+      "question": {
+        "text": "Did someone say \"marimba\"?",
+        "kind": "noul",
+        "options": null,
+        "task": "term",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "term",
+      "kind": "noul",
+      "value": false,
+      "probability": 0.0,
+      "probabilities": null,
+      "score": 0.0,
+      "threshold": 0.5,
+      "window_start_s": 0.0,
+      "window_end_s": 3.0,
+      "latency_ms": 41208.59672699953,
+      "status": "validated",
+      "calibrated": false
+    },
+    {
+      "question": {
+        "text": "How many speakers?",
+        "kind": "choice",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3+"
+        ],
+        "task": "speaker_count",
+        "threshold": null,
+        "seconds": null
+      },
+      "task": "speaker_count",
+      "kind": "choice",
+      "value": null,
+      "probability": null,
+      "probabilities": null,
+      "score": null,
+      "threshold": 0.5,
+      "window_start_s": 0.0,
+      "window_end_s": 3.0,
+      "latency_ms": 41208.59672699953,
+      "status": "validated",
+      "calibrated": false
+    }
+  ]
+}

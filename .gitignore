@@ -1,0 +1,7 @@
+.venv/
+hf_cache/
+tmp/
+audio/
+*.log
+__pycache__/
+*.muse-github-snapshot-sync.json
